@@ -1,11 +1,8 @@
 const mySity = {
-    sity: 'New York',
-    info: {
-        popular: true,
-        country: 'USA'
+    city: 'New York',
+    cityGreeting () {
+        console.log('Greetings!!')
     }
 }
 
-console.log(mySity.info.popular)
-delete mySity.info['popular']
-console.log(mySity)
+mySity.cityGreeting()
