@@ -1,13 +1,11 @@
-const a = () => {
-    console.log('hi')
+const mySity = {
+    city: 'New York'
 }
+console.log(mySity)
+mySity.country = 'USA'
+console.log(mySity)
 
-a()
-
-a = 17
-
-a()
-
-
+mySity.popular = 'true'
+console.log(mySity)
 
 
