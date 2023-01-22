@@ -1,12 +1,11 @@
 const mySity = {
-    city: 'New York'
+    sity: 'New York',
+    info: {
+        popular: true,
+        country: 'USA'
+    }
 }
-console.log(mySity)
-mySity.country = 'USA'
-console.log(mySity)
 
-mySity.popular = 'true'
+console.log(mySity.info.popular)
+delete mySity.info['popular']
 console.log(mySity)
-delete mySity.popular
-console.log(mySity)
-
