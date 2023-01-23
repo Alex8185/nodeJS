@@ -1,10 +1,14 @@
-let a = 3
-let b = 5
-let c
-c = a + b
-console.log(c)
+a = 3
+b = 5
+
+function sum(a, b) {
+    const c = a + b
+    console.log(c)
+}
+
+sum(a, b)
 
 a = 10
 b = 12
-c = a + b
-console.log(c)
+
+sum(a, b)
