@@ -3,7 +3,7 @@ const person = {
     age: 40
 }
 
-const person2 = {...person}
+const person2 = JSON.parse(JSON.stringify(person))
 
 person2.age = 42
 
