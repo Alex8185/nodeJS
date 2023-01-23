@@ -3,7 +3,7 @@ const person = {
     age: 40
 }
 
-const person2 = Object.assign({},person)
+const person2 = {...person}
 
 person2.age = 42
 
