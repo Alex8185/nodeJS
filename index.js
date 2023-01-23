@@ -1,11 +1,10 @@
-const person = {
-    name: 'Alex',
-    age: 40
-}
+let a = 3
+let b = 5
+let c
+c = a + b
+console.log(c)
 
-const person2 = JSON.parse(JSON.stringify(person))
-
-person2.age = 42
-
-console.log(person.age)
-console.log(person2.age)
+a = 10
+b = 12
+c = a + b
+console.log(c)
