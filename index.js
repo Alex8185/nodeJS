@@ -1,15 +1,8 @@
-const button = {
-    width: 200,
-    text: 'Alex',
-    name: 'rewrt'
-}
+const hello = 'Alex'
+const world = 'Minsk'
 
-const newButton = {
-    ...button,
-    color: 'red'
-}
-const superButton = {
-    ...button,
-    ...newButton
-}
-console.log(superButton)
+
+const res = `My name is ${hello} `
+const res1 = `I live in city ${world}`
+console.log(res)
+console.log(res1)
