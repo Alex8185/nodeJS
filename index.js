@@ -1,10 +1,15 @@
 const button = {
     width: 200,
-    text: 'Alex'
+    text: 'Alex',
+    name: 'rewrt'
 }
 
 const newButton = {
     ...button,
     color: 'red'
 }
-console.log(newButton)
+const superButton = {
+    ...button,
+    ...newButton
+}
+console.log(superButton)
