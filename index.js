@@ -1,8 +1,10 @@
-'use strict'
-function myFn() {
-    a = true
-    console.log(a)
+const button = {
+    width: 200,
+    text: 'Alex'
 }
-myFn()
-console.log(a)
 
+const newButton = {
+    ...button,
+    color: 'red'
+}
+console.log(newButton)
