@@ -1,8 +1,6 @@
-const hello = 'Alex'
-const world = 'Minsk'
+function multByFactor(value, multiplier = 1) {
+    return value * multiplier
+}
 
-
-const res = `My name is ${hello} `
-const res1 = `I live in city ${world}`
-console.log(res)
-console.log(res1)
+console.log(multByFactor(10,2))
+console.log(multByFactor(5))
