@@ -1,12 +1,14 @@
-const myFn = (point, addata = Data()) => ({
-    ...point,
-    addata,
-})
-
-const newMyFn = {
-    name: 'Alex',
-    syrn: 'sub'
+const fnError = () => {
+    throw new Error('Some error')
 }
 
-myFn(newMyFn)
+try {
+    fnError()
+} catch(error) {
+    console.error(error)
+    console.log(error.message)
+}
 
+console.log('Continue...')
+
+ 
