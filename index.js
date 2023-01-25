@@ -1,6 +1,5 @@
-function multByFactor(value, multiplier = 1) {
-    return value * multiplier
-}
+const myFn = (a, b = 1) => a * b
 
-console.log(multByFactor(10,2))
-console.log(multByFactor(5))
+
+console.log(myFn(5, 2))
+console.log(myFn(5))
