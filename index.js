@@ -1,5 +1,12 @@
-const myFn = (a, b = 1) => a * b
+const myFn = (point, addata = Data()) => ({
+    ...point,
+    addata,
+})
 
+const newMyFn = {
+    name: 'Alex',
+    syrn: 'sub'
+}
 
-console.log(myFn(5, 2))
-console.log(myFn(5))
+myFn(newMyFn)
+
