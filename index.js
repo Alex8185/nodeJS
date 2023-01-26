@@ -1,7 +1,8 @@
-const myArray = [1, true, 'a']
+const myArray = [1, 2, 3]
 console.log(myArray)
 
-console.log(myArray[0])
-console.log(myArray[1])
+myArray.push(4)
+console.log(myArray)
 
-console.log(myArray.length)
+myArray.pop()
+console.log(myArray)
