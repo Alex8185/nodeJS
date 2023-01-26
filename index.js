@@ -1,5 +1,6 @@
 const myArray = [1, 2, 3]
 console.log(myArray)
 
-myArray.forEach(el => console.log(el * 2))
+const newArray = myArray.map(el => el * 3)
+console.log(newArray)
 console.log(myArray)
