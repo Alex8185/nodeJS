@@ -1,8 +1,9 @@
 const myArray = [1, 2, 3]
 console.log(myArray)
 
-myArray.unshift(true)
+myArray.shift()
 console.log(myArray)
 
-myArray.unshift('abc')
+const newArray = myArray.shift()
 console.log(myArray)
+console.log(newArray)
