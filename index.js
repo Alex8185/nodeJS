@@ -6,3 +6,7 @@ console.log(myArray)
 
 myArray.pop()
 console.log(myArray)
+
+const removedElement = myArray.pop()
+console.log(myArray)
+console.log(removedElement)
