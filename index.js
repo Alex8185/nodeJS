@@ -1,14 +1,12 @@
-const fnError = () => {
-    throw new Error('Some error')
-}
+const myArray = [1, true, 'Alex']
+console.log(myArray)
 
-try {
-    fnError()
-} catch(error) {
-    console.error(error)
-    console.log(error.message)
-}
+const myArray2 = [1, true, 'Alex']
+console.log(myArray2)
 
-console.log('Continue...')
+console.log(myArray.length)
 
- 
+console.log(myArray === myArray2)
+
+const myArray3 = myArray
+console.log(myArray3 === myArray)
