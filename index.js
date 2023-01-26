@@ -1,12 +1,10 @@
-const myArray = [1, true, 'Alex']
+const myObject = {
+    0:1,
+    1:2,
+    2:3,
+    length:3
+}
+const myArray = [1,2,3]
+
+console.log(myObject)
 console.log(myArray)
-
-const myArray2 = [1, true, 'Alex']
-console.log(myArray2)
-
-console.log(myArray.length)
-
-console.log(myArray === myArray2)
-
-const myArray3 = myArray
-console.log(myArray3 === myArray)
