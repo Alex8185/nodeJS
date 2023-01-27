@@ -1,10 +1,4 @@
-const userProfile = {
-    name: 'Alex',
-    commentsQty: 23,
-    hasSignedAgreement: false,
-}
-const {name, commentsQty} = userProfile
-const {hasSignedAgreement} = userProfile
-
-console.log(name)
-console.log(commentsQty)
+const Array = ['apple', 'banana']
+const [frutOne, frutTwo] = Array
+console.log(frutOne)
+console.log(frutTwo)
