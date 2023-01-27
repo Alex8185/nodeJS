@@ -1,9 +1,13 @@
-const age = 16
+const age = 25
 
 if (age > 18) {
     console.log('Is adult')
-}  else if (age >= 12) {
+}  
+
+if (age >= 12) {
     console.log('Is teenager')
-}  else {
+}  
+
+if (age <12) {
     console.log('Is child')
 }
