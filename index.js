@@ -1,13 +1,5 @@
-const userProfile = {
-    name: 'Alex',
-    surname: 20,
-    age: 34
+let val = 10
+if (val > 5) {
+    val += 20
 }
-
-const newUser = ({name, surname}) => {
-    if(!surname) {
-        return `User ${name} has no comment`
-    }
-    return `User ${name} has ${surname} comments`
-}
-console.log(newUser(userProfile))
+console.log(val)
