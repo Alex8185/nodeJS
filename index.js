@@ -10,4 +10,7 @@ class Comment {
 
 const firstComment = new Comment('First comment')
 
-console.log(firstComment)
+
+console.log(firstComment instanceof Comment)
+
+console.log(firstComment instanceof Object)
