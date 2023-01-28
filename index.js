@@ -1,5 +1,6 @@
-const Array = ['first', 'second', 'third']
+let i =0
 
-Array.forEach((Element, index) => {
-    console.log(Element, index)
-})
+while (i < 5) {
+    console.log(i)
+    i++
+}
