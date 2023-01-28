@@ -1,6 +1,13 @@
-let i =0
-
-while (i < 5) {
-    console.log(i)
-    i++
+class Comment {
+    constructor(text) {
+        this.text = text
+        this.votesQty = 0
+    }
+    upvote() {
+        this.votesQty += 1
+    }
 }
+
+const firstComment = new Comment('First comment')
+
+console.log(firstComment)
