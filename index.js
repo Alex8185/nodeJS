@@ -1,3 +1,5 @@
-for (let i = 0; i < 5; i++) {
-    console.log(i)
+const Array = ['first', 'second', 'third']
+
+for (let i = 0; i < Array.length; i++) {
+    console.log(Array[i])
 }
