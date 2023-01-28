@@ -1,13 +1,15 @@
-const age = 25
+const month = 2
 
-if (age > 18) {
-    console.log('Is adult')
-}  
-
-if (age >= 12 && age <= 18) {
-    console.log('Is teenager')
-}  
-
-if (age <12) {
-    console.log('Is child')
+switch (month) {
+    case 12:
+        console.log('декабрь')
+        break
+    case 1:
+        console.log('январь')
+        break
+    case 2:
+        console.log('февраль')
+    break
+    default:
+        console.log('Это не зимний месяц')
 }
