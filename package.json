@@ -1,0 +1,31 @@
+{
+  "name": "nodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "scripts": {
+ "start": "json-server database.json"
+},
+  
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex8185/nodeJS.git"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex8185/nodeJS/issues"
+  },
+  
+  "homepage": "https://github.com/Alex8185/nodeJS#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

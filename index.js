@@ -7,10 +7,9 @@ class Comment {
         this.votesQty += 1
     }
 }
-
 const firstComment = new Comment('First comment')
 
-
-console.log(firstComment instanceof Comment)
-
-console.log(firstComment instanceof Object)
+firstComment.upvote()
+console.log(firstComment.votesQty)
+firstComment.upvote()
+console.log(firstComment.votesQty)
